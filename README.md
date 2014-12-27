@@ -6,12 +6,13 @@ NPM - Hearthstone Card Search in the Terminal
 
 ## Installation
 
+```bash
 $ npm install -g hs-card-search  
-
+```
 ## Usage
-
+```bash
 $ hs-search -c "seal of light"
-
+```
 ## Additional information
 
 This is a node package for search for specific cards via data from [http://hearthstonejson.com/](http://hearthstonejson.com/).
