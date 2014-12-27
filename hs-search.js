@@ -15,8 +15,13 @@ commander
 
 var search = new Search();
 
+// This is for when no flag supplied, for quick search.
+if(commander.args.length == 1) {
+  commander.card = commander.args[0];
+}
+
 // If any command is entered, othwise show help.
-if (commander.card || commander.text || commander.all) {
+if (commander.card || commander || commander.all) {
   var results = [];
   if (commander.card) {
     results.push(search.search(commander.card, 'name'));

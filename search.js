@@ -22,7 +22,7 @@ function Search() {
 // only for text values, as cost, attack etc isn't that useful
 Search.prototype.search = function(term, key) {
   key = key || 'name';
-  if (term === '') { return []; }
+  if (term === '' || term === undefined || typeof(term) !== 'string') { return []; }
   return _.filter(this.list, function(c) {
     if (c.hasOwnProperty(key)) {
       return c[key].toLowerCase().indexOf(term.toLowerCase()) !== -1;

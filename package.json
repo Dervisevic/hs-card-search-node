@@ -1,6 +1,6 @@
 {
   "name": "hs-card-search",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple node app for searching for hearthstone cards in the terminal.",
   "main": "./hs-search.js",
   "scripts": {
