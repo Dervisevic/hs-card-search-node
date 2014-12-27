@@ -1,6 +1,6 @@
 NPM - Hearthstone Card Search in the Terminal
 ==============
-[![npm version](https://badge.fury.io/js/hs-card-search.svg)](http://badge.fury.io/js/hs-card-search)
+[![npm version](https://badge.fury.io/js/hs-card-search.svg)](http://badge.fury.io/js/hs-card-search) - Command: hs-search
 
 ![Screenshot](http://i.imgur.com/JCWUOvJ.png)
 
