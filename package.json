@@ -1,0 +1,32 @@
+{
+  "name": "hs-card-search",
+  "version": "1.0.0",
+  "description": "A simple node app for searching for hearthstone cards in the terminal.",
+  "main": "./hs-search.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "hs-search": "./hs-search.js"
+  },
+  "repository": "Dervisevic/hs-card-search-node",
+  "keywords": [
+    "hearthstone",
+    "blizzard",
+    "game",
+    "search"
+  ],
+  "author": "Denis Dervisevic <denis@dervisevic.se> (http://denisdervisevic.com)",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.githubusercontent.com/Dervisevic/diversity-card-search-node/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "colors": "^1.0.3",
+    "commander": "^2.5.1",
+    "underscore": "^1.7.0"
+  }
+}
